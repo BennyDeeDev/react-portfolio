@@ -6,7 +6,7 @@ export default function LandingPage() {
 	return (
 		<div>
 			<Hero />
-			<div className="bg-white max-w-screen-lg mx-auto">
+			<div className="mx-auto max-w-screen-xl px-4 py-8">
 				<Strengths />
 			</div>
 		</div>

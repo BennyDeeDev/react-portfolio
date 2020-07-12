@@ -7,13 +7,13 @@ export default [
 		id: 1,
 		headline: "Effizient",
 		svg: optimization,
-		caption: "Webseiten sollten schnell sein",
+		caption: "Nicht nur Webseiten sollten effizient sein",
 	},
 	{
 		id: 2,
 		headline: "Minimalistisch",
 		svg: smartphone,
-		caption: "Nur das behalten was Wert hat",
+		caption: "Nur das implementieren was Wert hat",
 	},
 	{
 		id: 3,
