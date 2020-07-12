@@ -1,3 +1,27 @@
 @tailwind base;
+h1 {
+	@apply font-bold text-4xl underline;
+}
+h2 {
+	@apply font-semibold text-3xl;
+}
+h3 {
+	@apply font-semibold text-2xl;
+}
+h4 {
+	@apply font-semibold text-xl;
+}
+h5 {
+	@apply font-semibold text-lg;
+}
+h6 {
+	@apply font-semibold text-base;
+}
+a {
+	@apply underline text-minimalist-gray;
+	&:hover {
+		@apply text-minimalist-teal transition ease-in-out duration-300;
+	}
+}
 @tailwind components;
 @tailwind utilities;

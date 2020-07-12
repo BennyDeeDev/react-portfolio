@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 export default function TypeWriter() {
 	return (
 		<div className="bg-black h-screen w-screen text-white text-3xl">
-			<div className="text-green-600">user@b-derksen.de:~$</div>
+			<div className="text-terminal-green">user@b-derksen.de:~$</div>
 			<div className="">
 				<Typewriter
 					onInit={(typewriter) => {

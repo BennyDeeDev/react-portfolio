@@ -4,7 +4,7 @@ import strengthsMock from "../mocks/strengthsMock";
 export default function Strengths() {
 	return (
 		<div className="">
-			<h2 className="text-center text-4xl m-4">Meine Philosophie</h2>
+			<h1 className="text-center text-4xl m-4">Meine Philosophie</h1>
 			<div className="flex justify-around">
 				{strengthsMock.map((strength, index) => (
 					<div key={index} className="flex flex-col items-center flex-1">
