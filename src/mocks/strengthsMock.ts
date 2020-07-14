@@ -1,6 +1,6 @@
-import optimization from "../img/optimization.svg";
-import smartphone from "../img/smartphone.svg";
-import atom from "../img/atom.svg";
+import optimization from "../images/optimization.svg";
+import smartphone from "../images/smartphone.svg";
+import atom from "../images/atom.svg";
 
 export default [
 	{
