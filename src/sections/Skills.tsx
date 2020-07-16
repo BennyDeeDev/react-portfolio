@@ -2,42 +2,52 @@ import React from "react";
 import skillsMock from "../mocks/skillsMock";
 import Skill from "../components/Skill";
 import skill from "../images/skills.svg";
+import Headline from "../components/Headline";
+import profilepicture from "../images/profilepicture.jpg";
 
 export default function Skills() {
 	return (
 		<div>
-			<div className="flex justify-center mt-16 mb-4 items-center">
-				<img className="w-8" src={skill} alt="skills" />
-				<h1 className="text-center">Meine Fähigkeiten</h1>
-			</div>
-			<div>
-				<h2>Frontend</h2>
-				{skillsMock.frontend.map((skill, index) => (
-					<Skill
-						key={index}
-						text={skill.text}
-						svg={skill.svg}
-						progress={skill.progress}
+			<Headline svg={skill} title="Meine Fähigkeiten" />
+			<div className="flex justify-around">
+				<div className="flex-col">
+					<img
+						className="object-cover rounded-full border border-minimalist-gray"
+						style={{ width: "12rem", height: "12rem" }}
+						src={profilepicture}
+						alt=""
 					/>
-				))}
-				<h2>Backend</h2>
-				{skillsMock.backend.map((skill, index) => (
-					<Skill
-						key={index}
-						text={skill.text}
-						svg={skill.svg}
-						progress={skill.progress}
-					/>
-				))}
-				<h2>General</h2>
-				{skillsMock.general.map((skill, index) => (
-					<Skill
-						key={index}
-						text={skill.text}
-						svg={skill.svg}
-						progress={skill.progress}
-					/>
-				))}
+					<p>Über mich:</p>
+				</div>
+				<div className="flex-col flex-grow ml-12">
+					<h2>Frontend</h2>
+					{skillsMock.frontend.map((skill, index) => (
+						<Skill
+							key={index}
+							text={skill.text}
+							svg={skill.svg}
+							progress={skill.progress}
+						/>
+					))}
+					<h2>Backend</h2>
+					{skillsMock.backend.map((skill, index) => (
+						<Skill
+							key={index}
+							text={skill.text}
+							svg={skill.svg}
+							progress={skill.progress}
+						/>
+					))}
+					<h2>General</h2>
+					{skillsMock.general.map((skill, index) => (
+						<Skill
+							key={index}
+							text={skill.text}
+							svg={skill.svg}
+							progress={skill.progress}
+						/>
+					))}
+				</div>
 			</div>
 		</div>
 	);

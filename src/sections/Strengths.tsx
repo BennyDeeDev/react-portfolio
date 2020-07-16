@@ -1,10 +1,12 @@
 import React from "react";
 import strengthsMock from "../mocks/strengthsMock";
+import Headline from "../components/Headline";
+import strength from "../images/strength.svg";
 
 export default function Strengths() {
 	return (
 		<div className="">
-			<h1 className="text-center">Meine Philosophie</h1>
+			<Headline svg={strength} title="Meine Stärken" />
 			<div className="flex justify-around">
 				{strengthsMock.map((strength, index) => (
 					<div
