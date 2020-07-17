@@ -7,12 +7,9 @@ export default function Strengths() {
 	return (
 		<div className="">
 			<Headline svg={strength} title="Meine Stärken" />
-			<div className="flex justify-around">
+			<div className="flex justify-between">
 				{strengthsMock.map((strength, index) => (
-					<div
-						key={index}
-						className="flex flex-col items-center flex-1"
-					>
+					<div key={index} className="flex flex-col items-center ">
 						<h2 className="text-3xl">{strength.headline}</h2>
 						<img
 							className="w-32 m-4"
