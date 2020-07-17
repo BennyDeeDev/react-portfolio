@@ -10,7 +10,7 @@ export default function Skills() {
 		<div>
 			<Headline svg={skill} title="Meine Fähigkeiten" />
 			<div className="flex justify-around">
-				<div className="flex-col">
+				<div className="flex-col w-1/2">
 					<img
 						className="object-cover rounded-full border border-minimalist-gray"
 						style={{ width: "12rem", height: "12rem" }}
@@ -18,34 +18,24 @@ export default function Skills() {
 						alt=""
 					/>
 					<p>Über mich:</p>
+					<p>Ich bin ein Fullstack-Developer aus Waiblingen (Stuttgart).</p>
+					<p>
+						JavaScript ist meine Leidenschaft, egal ob Frontend Frameworks wie React.js oder Backend
+						Controller mit Express.js.
+					</p>
 				</div>
-				<div className="flex-col flex-grow ml-12">
+				<div className="flex-col w-1/2 flex-grow ml-12">
 					<h2>Frontend</h2>
 					{skillsMock.frontend.map((skill, index) => (
-						<Skill
-							key={index}
-							text={skill.text}
-							svg={skill.svg}
-							progress={skill.progress}
-						/>
+						<Skill key={index} text={skill.text} svg={skill.svg} progress={skill.progress} />
 					))}
 					<h2>Backend</h2>
 					{skillsMock.backend.map((skill, index) => (
-						<Skill
-							key={index}
-							text={skill.text}
-							svg={skill.svg}
-							progress={skill.progress}
-						/>
+						<Skill key={index} text={skill.text} svg={skill.svg} progress={skill.progress} />
 					))}
 					<h2>General</h2>
 					{skillsMock.general.map((skill, index) => (
-						<Skill
-							key={index}
-							text={skill.text}
-							svg={skill.svg}
-							progress={skill.progress}
-						/>
+						<Skill key={index} text={skill.text} svg={skill.svg} progress={skill.progress} />
 					))}
 				</div>
 			</div>
