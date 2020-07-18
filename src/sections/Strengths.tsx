@@ -1,12 +1,12 @@
 import React from "react";
 import strengthsMock from "../mocks/strengthsMock";
-import Headline from "../components/TextWithSvg";
+import TextWithSvg from "../components/TextWithSvg";
 import strength from "../images/strength.svg";
 
 export default function Strengths() {
 	return (
 		<div className="">
-			<Headline
+			<TextWithSvg
 				svg={strength}
 				title="Meine Stärken"
 				styleSvg="w-8"

@@ -1,10 +1,29 @@
 import React from "react";
+import TextWithSvg from "../components/TextWithSvg";
+
+import resume from "../images/resume.svg";
+import work from "../images/work.svg";
+import education from "../images/education.svg";
+import cvMock from "../mocks/cvMock";
+
+import CvSection from "../components/CvSection";
 
 export default function Cv() {
 	return (
 		<div>
-			<h4>Ausbildung</h4>
-			<h4>Berufliche Laufbahn</h4>
+			<TextWithSvg
+				title="Mein Lebenslauf"
+				Tag="h1"
+				svg={resume}
+				styleDiv="mt-16 mb-4 cvItems-center justify-center"
+				styleSvg="w-8"
+			/>
+			<div className="flex justify-between">
+				<CvSection title="Berufliche Laufbahn" svg={work} array={cvMock.work} />
+				<div className="ml-12">
+					<CvSection title="Ausbildung" svg={education} array={cvMock.education} />
+				</div>
+			</div>
 		</div>
 	);
 }

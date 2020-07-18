@@ -1766,7 +1766,7 @@ a {
   border-color: #547980 ;
 }
 
-.divide-miniamlist-brown > :not(template) ~ :not(template) {
+.divide-minimalist-brown > :not(template) ~ :not(template) {
   --divide-opacity: 1;
   border-color: #594F4F;
   border-color: rgba(89, 79, 79, var(--divide-opacity));
@@ -2444,7 +2444,7 @@ a {
   background-color: #547980 ;
 }
 
-.bg-miniamlist-brown {
+.bg-minimalist-brown {
   --bg-opacity: 1;
   background-color: #594F4F;
   background-color: rgba(89, 79, 79, var(--bg-opacity));
@@ -3038,7 +3038,7 @@ a {
   background-color: #547980 ;
 }
 
-.hover\:bg-miniamlist-brown:hover {
+.hover\:bg-minimalist-brown:hover {
   --bg-opacity: 1;
   background-color: #594F4F;
   background-color: rgba(89, 79, 79, var(--bg-opacity));
@@ -3632,7 +3632,7 @@ a {
   background-color: #547980 ;
 }
 
-.focus\:bg-miniamlist-brown:focus {
+.focus\:bg-minimalist-brown:focus {
   --bg-opacity: 1;
   background-color: #594F4F;
   background-color: rgba(89, 79, 79, var(--bg-opacity));
@@ -4366,7 +4366,7 @@ a {
   border-color: #547980 ;
 }
 
-.border-miniamlist-brown {
+.border-minimalist-brown {
   --border-opacity: 1;
   border-color: #594F4F;
   border-color: rgba(89, 79, 79, var(--border-opacity));
@@ -4960,7 +4960,7 @@ a {
   border-color: #547980 ;
 }
 
-.hover\:border-miniamlist-brown:hover {
+.hover\:border-minimalist-brown:hover {
   --border-opacity: 1;
   border-color: #594F4F;
   border-color: rgba(89, 79, 79, var(--border-opacity));
@@ -5554,7 +5554,7 @@ a {
   border-color: #547980 ;
 }
 
-.focus\:border-miniamlist-brown:focus {
+.focus\:border-minimalist-brown:focus {
   --border-opacity: 1;
   border-color: #594F4F;
   border-color: rgba(89, 79, 79, var(--border-opacity));
@@ -10966,25 +10966,25 @@ a {
   color: #547980 ;
 }
 
-.placeholder-miniamlist-brown::-webkit-input-placeholder {
+.placeholder-minimalist-brown::-webkit-input-placeholder {
   --placeholder-opacity: 1;
   color: #594F4F;
   color: rgba(89, 79, 79, var(--placeholder-opacity));
 }
 
-.placeholder-miniamlist-brown:-ms-input-placeholder {
+.placeholder-minimalist-brown:-ms-input-placeholder {
   --placeholder-opacity: 1;
   color: #594F4F;
   color: rgba(89, 79, 79, var(--placeholder-opacity));
 }
 
-.placeholder-miniamlist-brown::-ms-input-placeholder {
+.placeholder-minimalist-brown::-ms-input-placeholder {
   --placeholder-opacity: 1;
   color: #594F4F;
   color: rgba(89, 79, 79, var(--placeholder-opacity));
 }
 
-.placeholder-miniamlist-brown::placeholder {
+.placeholder-minimalist-brown::placeholder {
   --placeholder-opacity: 1;
   color: #594F4F;
   color: rgba(89, 79, 79, var(--placeholder-opacity));
@@ -13342,25 +13342,25 @@ a {
   color: #547980 ;
 }
 
-.focus\:placeholder-miniamlist-brown:focus::-webkit-input-placeholder {
+.focus\:placeholder-minimalist-brown:focus::-webkit-input-placeholder {
   --placeholder-opacity: 1;
   color: #594F4F;
   color: rgba(89, 79, 79, var(--placeholder-opacity));
 }
 
-.focus\:placeholder-miniamlist-brown:focus:-ms-input-placeholder {
+.focus\:placeholder-minimalist-brown:focus:-ms-input-placeholder {
   --placeholder-opacity: 1;
   color: #594F4F;
   color: rgba(89, 79, 79, var(--placeholder-opacity));
 }
 
-.focus\:placeholder-miniamlist-brown:focus::-ms-input-placeholder {
+.focus\:placeholder-minimalist-brown:focus::-ms-input-placeholder {
   --placeholder-opacity: 1;
   color: #594F4F;
   color: rgba(89, 79, 79, var(--placeholder-opacity));
 }
 
-.focus\:placeholder-miniamlist-brown:focus::placeholder {
+.focus\:placeholder-minimalist-brown:focus::placeholder {
   --placeholder-opacity: 1;
   color: #594F4F;
   color: rgba(89, 79, 79, var(--placeholder-opacity));
@@ -14407,7 +14407,7 @@ a {
   color: #547980 ;
 }
 
-.text-miniamlist-brown {
+.text-minimalist-brown {
   --text-opacity: 1;
   color: #594F4F;
   color: rgba(89, 79, 79, var(--text-opacity));
@@ -15001,7 +15001,7 @@ a {
   color: #547980 ;
 }
 
-.hover\:text-miniamlist-brown:hover {
+.hover\:text-minimalist-brown:hover {
   --text-opacity: 1;
   color: #594F4F;
   color: rgba(89, 79, 79, var(--text-opacity));
@@ -15595,7 +15595,7 @@ a {
   color: #547980 ;
 }
 
-.focus\:text-miniamlist-brown:focus {
+.focus\:text-minimalist-brown:focus {
   --text-opacity: 1;
   color: #594F4F;
   color: rgba(89, 79, 79, var(--text-opacity));
@@ -19624,7 +19624,7 @@ a {
     border-color: #547980 ;
   }
 
-  .sm\:divide-miniamlist-brown > :not(template) ~ :not(template) {
+  .sm\:divide-minimalist-brown > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #594F4F;
     border-color: rgba(89, 79, 79, var(--divide-opacity));
@@ -20302,7 +20302,7 @@ a {
     background-color: #547980 ;
   }
 
-  .sm\:bg-miniamlist-brown {
+  .sm\:bg-minimalist-brown {
     --bg-opacity: 1;
     background-color: #594F4F;
     background-color: rgba(89, 79, 79, var(--bg-opacity));
@@ -20896,7 +20896,7 @@ a {
     background-color: #547980 ;
   }
 
-  .sm\:hover\:bg-miniamlist-brown:hover {
+  .sm\:hover\:bg-minimalist-brown:hover {
     --bg-opacity: 1;
     background-color: #594F4F;
     background-color: rgba(89, 79, 79, var(--bg-opacity));
@@ -21490,7 +21490,7 @@ a {
     background-color: #547980 ;
   }
 
-  .sm\:focus\:bg-miniamlist-brown:focus {
+  .sm\:focus\:bg-minimalist-brown:focus {
     --bg-opacity: 1;
     background-color: #594F4F;
     background-color: rgba(89, 79, 79, var(--bg-opacity));
@@ -22224,7 +22224,7 @@ a {
     border-color: #547980 ;
   }
 
-  .sm\:border-miniamlist-brown {
+  .sm\:border-minimalist-brown {
     --border-opacity: 1;
     border-color: #594F4F;
     border-color: rgba(89, 79, 79, var(--border-opacity));
@@ -22818,7 +22818,7 @@ a {
     border-color: #547980 ;
   }
 
-  .sm\:hover\:border-miniamlist-brown:hover {
+  .sm\:hover\:border-minimalist-brown:hover {
     --border-opacity: 1;
     border-color: #594F4F;
     border-color: rgba(89, 79, 79, var(--border-opacity));
@@ -23412,7 +23412,7 @@ a {
     border-color: #547980 ;
   }
 
-  .sm\:focus\:border-miniamlist-brown:focus {
+  .sm\:focus\:border-minimalist-brown:focus {
     --border-opacity: 1;
     border-color: #594F4F;
     border-color: rgba(89, 79, 79, var(--border-opacity));
@@ -28824,25 +28824,25 @@ a {
     color: #547980 ;
   }
 
-  .sm\:placeholder-miniamlist-brown::-webkit-input-placeholder {
+  .sm\:placeholder-minimalist-brown::-webkit-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .sm\:placeholder-miniamlist-brown:-ms-input-placeholder {
+  .sm\:placeholder-minimalist-brown:-ms-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .sm\:placeholder-miniamlist-brown::-ms-input-placeholder {
+  .sm\:placeholder-minimalist-brown::-ms-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .sm\:placeholder-miniamlist-brown::placeholder {
+  .sm\:placeholder-minimalist-brown::placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
@@ -31200,25 +31200,25 @@ a {
     color: #547980 ;
   }
 
-  .sm\:focus\:placeholder-miniamlist-brown:focus::-webkit-input-placeholder {
+  .sm\:focus\:placeholder-minimalist-brown:focus::-webkit-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .sm\:focus\:placeholder-miniamlist-brown:focus:-ms-input-placeholder {
+  .sm\:focus\:placeholder-minimalist-brown:focus:-ms-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .sm\:focus\:placeholder-miniamlist-brown:focus::-ms-input-placeholder {
+  .sm\:focus\:placeholder-minimalist-brown:focus::-ms-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .sm\:focus\:placeholder-miniamlist-brown:focus::placeholder {
+  .sm\:focus\:placeholder-minimalist-brown:focus::placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
@@ -32265,7 +32265,7 @@ a {
     color: #547980 ;
   }
 
-  .sm\:text-miniamlist-brown {
+  .sm\:text-minimalist-brown {
     --text-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--text-opacity));
@@ -32859,7 +32859,7 @@ a {
     color: #547980 ;
   }
 
-  .sm\:hover\:text-miniamlist-brown:hover {
+  .sm\:hover\:text-minimalist-brown:hover {
     --text-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--text-opacity));
@@ -33453,7 +33453,7 @@ a {
     color: #547980 ;
   }
 
-  .sm\:focus\:text-miniamlist-brown:focus {
+  .sm\:focus\:text-minimalist-brown:focus {
     --text-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--text-opacity));
@@ -37483,7 +37483,7 @@ a {
     border-color: #547980 ;
   }
 
-  .md\:divide-miniamlist-brown > :not(template) ~ :not(template) {
+  .md\:divide-minimalist-brown > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #594F4F;
     border-color: rgba(89, 79, 79, var(--divide-opacity));
@@ -38161,7 +38161,7 @@ a {
     background-color: #547980 ;
   }
 
-  .md\:bg-miniamlist-brown {
+  .md\:bg-minimalist-brown {
     --bg-opacity: 1;
     background-color: #594F4F;
     background-color: rgba(89, 79, 79, var(--bg-opacity));
@@ -38755,7 +38755,7 @@ a {
     background-color: #547980 ;
   }
 
-  .md\:hover\:bg-miniamlist-brown:hover {
+  .md\:hover\:bg-minimalist-brown:hover {
     --bg-opacity: 1;
     background-color: #594F4F;
     background-color: rgba(89, 79, 79, var(--bg-opacity));
@@ -39349,7 +39349,7 @@ a {
     background-color: #547980 ;
   }
 
-  .md\:focus\:bg-miniamlist-brown:focus {
+  .md\:focus\:bg-minimalist-brown:focus {
     --bg-opacity: 1;
     background-color: #594F4F;
     background-color: rgba(89, 79, 79, var(--bg-opacity));
@@ -40083,7 +40083,7 @@ a {
     border-color: #547980 ;
   }
 
-  .md\:border-miniamlist-brown {
+  .md\:border-minimalist-brown {
     --border-opacity: 1;
     border-color: #594F4F;
     border-color: rgba(89, 79, 79, var(--border-opacity));
@@ -40677,7 +40677,7 @@ a {
     border-color: #547980 ;
   }
 
-  .md\:hover\:border-miniamlist-brown:hover {
+  .md\:hover\:border-minimalist-brown:hover {
     --border-opacity: 1;
     border-color: #594F4F;
     border-color: rgba(89, 79, 79, var(--border-opacity));
@@ -41271,7 +41271,7 @@ a {
     border-color: #547980 ;
   }
 
-  .md\:focus\:border-miniamlist-brown:focus {
+  .md\:focus\:border-minimalist-brown:focus {
     --border-opacity: 1;
     border-color: #594F4F;
     border-color: rgba(89, 79, 79, var(--border-opacity));
@@ -46683,25 +46683,25 @@ a {
     color: #547980 ;
   }
 
-  .md\:placeholder-miniamlist-brown::-webkit-input-placeholder {
+  .md\:placeholder-minimalist-brown::-webkit-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .md\:placeholder-miniamlist-brown:-ms-input-placeholder {
+  .md\:placeholder-minimalist-brown:-ms-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .md\:placeholder-miniamlist-brown::-ms-input-placeholder {
+  .md\:placeholder-minimalist-brown::-ms-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .md\:placeholder-miniamlist-brown::placeholder {
+  .md\:placeholder-minimalist-brown::placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
@@ -49059,25 +49059,25 @@ a {
     color: #547980 ;
   }
 
-  .md\:focus\:placeholder-miniamlist-brown:focus::-webkit-input-placeholder {
+  .md\:focus\:placeholder-minimalist-brown:focus::-webkit-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .md\:focus\:placeholder-miniamlist-brown:focus:-ms-input-placeholder {
+  .md\:focus\:placeholder-minimalist-brown:focus:-ms-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .md\:focus\:placeholder-miniamlist-brown:focus::-ms-input-placeholder {
+  .md\:focus\:placeholder-minimalist-brown:focus::-ms-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .md\:focus\:placeholder-miniamlist-brown:focus::placeholder {
+  .md\:focus\:placeholder-minimalist-brown:focus::placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
@@ -50124,7 +50124,7 @@ a {
     color: #547980 ;
   }
 
-  .md\:text-miniamlist-brown {
+  .md\:text-minimalist-brown {
     --text-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--text-opacity));
@@ -50718,7 +50718,7 @@ a {
     color: #547980 ;
   }
 
-  .md\:hover\:text-miniamlist-brown:hover {
+  .md\:hover\:text-minimalist-brown:hover {
     --text-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--text-opacity));
@@ -51312,7 +51312,7 @@ a {
     color: #547980 ;
   }
 
-  .md\:focus\:text-miniamlist-brown:focus {
+  .md\:focus\:text-minimalist-brown:focus {
     --text-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--text-opacity));
@@ -55342,7 +55342,7 @@ a {
     border-color: #547980 ;
   }
 
-  .lg\:divide-miniamlist-brown > :not(template) ~ :not(template) {
+  .lg\:divide-minimalist-brown > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #594F4F;
     border-color: rgba(89, 79, 79, var(--divide-opacity));
@@ -56020,7 +56020,7 @@ a {
     background-color: #547980 ;
   }
 
-  .lg\:bg-miniamlist-brown {
+  .lg\:bg-minimalist-brown {
     --bg-opacity: 1;
     background-color: #594F4F;
     background-color: rgba(89, 79, 79, var(--bg-opacity));
@@ -56614,7 +56614,7 @@ a {
     background-color: #547980 ;
   }
 
-  .lg\:hover\:bg-miniamlist-brown:hover {
+  .lg\:hover\:bg-minimalist-brown:hover {
     --bg-opacity: 1;
     background-color: #594F4F;
     background-color: rgba(89, 79, 79, var(--bg-opacity));
@@ -57208,7 +57208,7 @@ a {
     background-color: #547980 ;
   }
 
-  .lg\:focus\:bg-miniamlist-brown:focus {
+  .lg\:focus\:bg-minimalist-brown:focus {
     --bg-opacity: 1;
     background-color: #594F4F;
     background-color: rgba(89, 79, 79, var(--bg-opacity));
@@ -57942,7 +57942,7 @@ a {
     border-color: #547980 ;
   }
 
-  .lg\:border-miniamlist-brown {
+  .lg\:border-minimalist-brown {
     --border-opacity: 1;
     border-color: #594F4F;
     border-color: rgba(89, 79, 79, var(--border-opacity));
@@ -58536,7 +58536,7 @@ a {
     border-color: #547980 ;
   }
 
-  .lg\:hover\:border-miniamlist-brown:hover {
+  .lg\:hover\:border-minimalist-brown:hover {
     --border-opacity: 1;
     border-color: #594F4F;
     border-color: rgba(89, 79, 79, var(--border-opacity));
@@ -59130,7 +59130,7 @@ a {
     border-color: #547980 ;
   }
 
-  .lg\:focus\:border-miniamlist-brown:focus {
+  .lg\:focus\:border-minimalist-brown:focus {
     --border-opacity: 1;
     border-color: #594F4F;
     border-color: rgba(89, 79, 79, var(--border-opacity));
@@ -64542,25 +64542,25 @@ a {
     color: #547980 ;
   }
 
-  .lg\:placeholder-miniamlist-brown::-webkit-input-placeholder {
+  .lg\:placeholder-minimalist-brown::-webkit-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .lg\:placeholder-miniamlist-brown:-ms-input-placeholder {
+  .lg\:placeholder-minimalist-brown:-ms-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .lg\:placeholder-miniamlist-brown::-ms-input-placeholder {
+  .lg\:placeholder-minimalist-brown::-ms-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .lg\:placeholder-miniamlist-brown::placeholder {
+  .lg\:placeholder-minimalist-brown::placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
@@ -66918,25 +66918,25 @@ a {
     color: #547980 ;
   }
 
-  .lg\:focus\:placeholder-miniamlist-brown:focus::-webkit-input-placeholder {
+  .lg\:focus\:placeholder-minimalist-brown:focus::-webkit-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .lg\:focus\:placeholder-miniamlist-brown:focus:-ms-input-placeholder {
+  .lg\:focus\:placeholder-minimalist-brown:focus:-ms-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .lg\:focus\:placeholder-miniamlist-brown:focus::-ms-input-placeholder {
+  .lg\:focus\:placeholder-minimalist-brown:focus::-ms-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .lg\:focus\:placeholder-miniamlist-brown:focus::placeholder {
+  .lg\:focus\:placeholder-minimalist-brown:focus::placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
@@ -67983,7 +67983,7 @@ a {
     color: #547980 ;
   }
 
-  .lg\:text-miniamlist-brown {
+  .lg\:text-minimalist-brown {
     --text-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--text-opacity));
@@ -68577,7 +68577,7 @@ a {
     color: #547980 ;
   }
 
-  .lg\:hover\:text-miniamlist-brown:hover {
+  .lg\:hover\:text-minimalist-brown:hover {
     --text-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--text-opacity));
@@ -69171,7 +69171,7 @@ a {
     color: #547980 ;
   }
 
-  .lg\:focus\:text-miniamlist-brown:focus {
+  .lg\:focus\:text-minimalist-brown:focus {
     --text-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--text-opacity));
@@ -73201,7 +73201,7 @@ a {
     border-color: #547980 ;
   }
 
-  .xl\:divide-miniamlist-brown > :not(template) ~ :not(template) {
+  .xl\:divide-minimalist-brown > :not(template) ~ :not(template) {
     --divide-opacity: 1;
     border-color: #594F4F;
     border-color: rgba(89, 79, 79, var(--divide-opacity));
@@ -73879,7 +73879,7 @@ a {
     background-color: #547980 ;
   }
 
-  .xl\:bg-miniamlist-brown {
+  .xl\:bg-minimalist-brown {
     --bg-opacity: 1;
     background-color: #594F4F;
     background-color: rgba(89, 79, 79, var(--bg-opacity));
@@ -74473,7 +74473,7 @@ a {
     background-color: #547980 ;
   }
 
-  .xl\:hover\:bg-miniamlist-brown:hover {
+  .xl\:hover\:bg-minimalist-brown:hover {
     --bg-opacity: 1;
     background-color: #594F4F;
     background-color: rgba(89, 79, 79, var(--bg-opacity));
@@ -75067,7 +75067,7 @@ a {
     background-color: #547980 ;
   }
 
-  .xl\:focus\:bg-miniamlist-brown:focus {
+  .xl\:focus\:bg-minimalist-brown:focus {
     --bg-opacity: 1;
     background-color: #594F4F;
     background-color: rgba(89, 79, 79, var(--bg-opacity));
@@ -75801,7 +75801,7 @@ a {
     border-color: #547980 ;
   }
 
-  .xl\:border-miniamlist-brown {
+  .xl\:border-minimalist-brown {
     --border-opacity: 1;
     border-color: #594F4F;
     border-color: rgba(89, 79, 79, var(--border-opacity));
@@ -76395,7 +76395,7 @@ a {
     border-color: #547980 ;
   }
 
-  .xl\:hover\:border-miniamlist-brown:hover {
+  .xl\:hover\:border-minimalist-brown:hover {
     --border-opacity: 1;
     border-color: #594F4F;
     border-color: rgba(89, 79, 79, var(--border-opacity));
@@ -76989,7 +76989,7 @@ a {
     border-color: #547980 ;
   }
 
-  .xl\:focus\:border-miniamlist-brown:focus {
+  .xl\:focus\:border-minimalist-brown:focus {
     --border-opacity: 1;
     border-color: #594F4F;
     border-color: rgba(89, 79, 79, var(--border-opacity));
@@ -82401,25 +82401,25 @@ a {
     color: #547980 ;
   }
 
-  .xl\:placeholder-miniamlist-brown::-webkit-input-placeholder {
+  .xl\:placeholder-minimalist-brown::-webkit-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .xl\:placeholder-miniamlist-brown:-ms-input-placeholder {
+  .xl\:placeholder-minimalist-brown:-ms-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .xl\:placeholder-miniamlist-brown::-ms-input-placeholder {
+  .xl\:placeholder-minimalist-brown::-ms-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .xl\:placeholder-miniamlist-brown::placeholder {
+  .xl\:placeholder-minimalist-brown::placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
@@ -84777,25 +84777,25 @@ a {
     color: #547980 ;
   }
 
-  .xl\:focus\:placeholder-miniamlist-brown:focus::-webkit-input-placeholder {
+  .xl\:focus\:placeholder-minimalist-brown:focus::-webkit-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .xl\:focus\:placeholder-miniamlist-brown:focus:-ms-input-placeholder {
+  .xl\:focus\:placeholder-minimalist-brown:focus:-ms-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .xl\:focus\:placeholder-miniamlist-brown:focus::-ms-input-placeholder {
+  .xl\:focus\:placeholder-minimalist-brown:focus::-ms-input-placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
   }
 
-  .xl\:focus\:placeholder-miniamlist-brown:focus::placeholder {
+  .xl\:focus\:placeholder-minimalist-brown:focus::placeholder {
     --placeholder-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--placeholder-opacity));
@@ -85842,7 +85842,7 @@ a {
     color: #547980 ;
   }
 
-  .xl\:text-miniamlist-brown {
+  .xl\:text-minimalist-brown {
     --text-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--text-opacity));
@@ -86436,7 +86436,7 @@ a {
     color: #547980 ;
   }
 
-  .xl\:hover\:text-miniamlist-brown:hover {
+  .xl\:hover\:text-minimalist-brown:hover {
     --text-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--text-opacity));
@@ -87030,7 +87030,7 @@ a {
     color: #547980 ;
   }
 
-  .xl\:focus\:text-miniamlist-brown:focus {
+  .xl\:focus\:text-minimalist-brown:focus {
     --text-opacity: 1;
     color: #594F4F;
     color: rgba(89, 79, 79, var(--text-opacity));
