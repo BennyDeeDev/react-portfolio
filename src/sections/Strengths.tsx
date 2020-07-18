@@ -1,18 +1,12 @@
 import React from "react";
 import strengthsMock from "../mocks/strengthsMock";
-import TextWithSvg from "../components/TextWithSvg";
 import strength from "../images/strength.svg";
+import HeadTitle from "../components/HeadTitle";
 
 export default function Strengths() {
 	return (
 		<div className="">
-			<TextWithSvg
-				svg={strength}
-				title="Meine Stärken"
-				styleSvg="w-8"
-				Tag="h1"
-				styleDiv="items-center justify-center mt-24 mb-8"
-			/>
+			<HeadTitle svg={strength} title="Meine Stärken" />
 			<div className="flex justify-between">
 				{strengthsMock.map((strength, index) => (
 					<div key={index} className="flex flex-col items-center ">

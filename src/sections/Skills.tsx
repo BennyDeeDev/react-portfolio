@@ -5,17 +5,12 @@ import skill from "../images/skills.svg";
 import TextWithSvg from "../components/TextWithSvg";
 import profilepicture from "../images/profilepicture.jpg";
 import user from "../images/user.svg";
+import HeadTitle from "../components/HeadTitle";
 
 export default function Skills() {
 	return (
 		<div>
-			<TextWithSvg
-				svg={skill}
-				styleDiv="items-center justify-center mt-24 mb-8"
-				styleSvg="w-8"
-				title="Meine Fähigkeiten"
-				Tag="h1"
-			/>
+			<HeadTitle svg={skill} title="Meine Fähigkeiten" />
 			<div className="flex justify-between">
 				<div className="flex-col flex-1 justify-center">
 					<div className="bg-gray-300 flex mt-4 p-4 rounded-lg">
