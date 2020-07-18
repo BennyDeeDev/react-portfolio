@@ -10,7 +10,7 @@ import HeadTitle from "../components/HeadTitle";
 
 export default function Cv() {
 	return (
-		<div>
+		<div id="cv">
 			<HeadTitle title="Mein Lebenslauf" svg={resume} />
 			<div className="flex justify-between">
 				<CvSection title="Berufliche Laufbahn" svg={work} array={cvMock.work} />

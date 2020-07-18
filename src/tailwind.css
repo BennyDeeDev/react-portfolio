@@ -29,11 +29,11 @@ h6 {
 }
 
 a {
-	@apply underline text-minimalist-gray;
+	@apply opacity-75;
+}
 
-	&:hover {
-		@apply text-minimalist-teal transition ease-in-out duration-300;
-	}
+a:hover {
+	@apply opacity-100 transition ease-in-out duration-300;
 }
 
 @tailwind components;

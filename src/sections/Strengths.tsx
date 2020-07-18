@@ -5,7 +5,7 @@ import HeadTitle from "../components/HeadTitle";
 
 export default function Strengths() {
 	return (
-		<div className="">
+		<div id="strengths">
 			<HeadTitle svg={strength} title="Meine Stärken" />
 			<div className="flex justify-between">
 				{strengthsMock.map((strength, index) => (

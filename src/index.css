@@ -628,16 +628,14 @@ h6 {
 }
 
 a {
-  text-decoration: underline;
-  color: #547980 ;
-  &:hover {
-    --text-opacity: 1;
-    color: #45ADA8;
-    color: rgba(69, 173, 168, var(--text-opacity));
-    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 300ms;
-  }
+  opacity: 0.75;
+}
+
+a:hover {
+  opacity: 1;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
 }
 
 .container {
