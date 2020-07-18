@@ -11,7 +11,7 @@ export default function Skills() {
 		<div>
 			<TextWithSvg
 				svg={skill}
-				styleDiv="items-center justify-center mt-16 mb-4"
+				styleDiv="items-center justify-center mt-24 mb-8"
 				styleSvg="w-8"
 				title="Meine Fähigkeiten"
 				Tag="h1"

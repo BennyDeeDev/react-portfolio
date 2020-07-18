@@ -15,7 +15,7 @@ export default function Cv() {
 				title="Mein Lebenslauf"
 				Tag="h1"
 				svg={resume}
-				styleDiv="mt-16 mb-4 cvItems-center justify-center"
+				styleDiv="mt-24 mb-8 items-center justify-center"
 				styleSvg="w-8"
 			/>
 			<div className="flex justify-between">

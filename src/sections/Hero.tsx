@@ -2,9 +2,7 @@ import React from "react";
 //@ts-ignore
 import Typewriter from "typewriter-effect";
 
-const pasteString = () => {};
-
-export default function TypeWriter() {
+export default function Hero() {
 	return (
 		<div className="flex bg-black h-screen w-screen text-white text-3xl">
 			<div className="flex justify-center items-center flex-grow">
@@ -22,7 +20,6 @@ export default function TypeWriter() {
 									.pauseFor(10)
 									.deleteChars(2)
 									.typeString("etUser")
-									.callFunction(pasteString)
 									.start();
 							}}
 						/>

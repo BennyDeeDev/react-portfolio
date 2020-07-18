@@ -11,7 +11,7 @@ export default function Strengths() {
 				title="Meine Stärken"
 				styleSvg="w-8"
 				Tag="h1"
-				styleDiv="items-center justify-center mt-16 mb-4"
+				styleDiv="items-center justify-center mt-24 mb-8"
 			/>
 			<div className="flex justify-between">
 				{strengthsMock.map((strength, index) => (
