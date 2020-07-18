@@ -11,11 +11,7 @@ export default function Strengths() {
 				{strengthsMock.map((strength, index) => (
 					<div key={index} className="flex flex-col items-center ">
 						<h2 className="text-3xl">{strength.headline}</h2>
-						<img
-							className="w-32 m-4"
-							src={strength.svg}
-							alt={strength.headline}
-						/>
+						<img className="w-32 m-4" src={strength.svg} alt={strength.headline} />
 						<p>{strength.caption}</p>
 					</div>
 				))}
