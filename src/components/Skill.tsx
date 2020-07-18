@@ -11,7 +11,7 @@ export default function Skill({ text, svg, progress }) {
 				<div className="bg-gray-500 w-full h-6">
 					<div className="bg-minimalist-teal h-6" style={{ width: progress }}></div>
 				</div>
-				<span className="text-xs px-4 flex items-center">{progress}</span>
+				<span className="text-xs w-12 px-4 flex items-center">{progress}</span>
 			</div>
 		</div>
 	);

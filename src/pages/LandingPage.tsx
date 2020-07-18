@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../sections/Hero";
 import Strengths from "../sections/Strengths";
 import Skills from "../sections/Skills";
+import SpotifyPlaylist from "../sections/SpotifyPlaylist";
 
 export default function LandingPage() {
 	return (
@@ -11,6 +12,7 @@ export default function LandingPage() {
 				<Strengths />
 				<Skills />
 			</div>
+			<SpotifyPlaylist />
 		</div>
 	);
 }

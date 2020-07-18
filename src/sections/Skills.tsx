@@ -2,14 +2,20 @@ import React from "react";
 import skillsMock from "../mocks/skillsMock";
 import Skill from "../components/Skill";
 import skill from "../images/skills.svg";
-import Headline from "../components/Headline";
+import Headline from "../components/TextWithSvg";
 import profilepicture from "../images/profilepicture.jpg";
 import user from "../images/user.svg";
 
 export default function Skills() {
 	return (
 		<div>
-			<Headline svg={skill} title="Meine Fähigkeiten" />
+			<Headline
+				svg={skill}
+				styleDiv="items-center justify-center mt-16 mb-4"
+				styleSvg="w-8"
+				title="Meine Fähigkeiten"
+				Tag="h1"
+			/>
 			<div className="flex justify-between">
 				<div className="flex-col justify-center w-1/2">
 					<div className="bg-gray-300 flex mt-4 p-4 rounded-lg">
@@ -20,10 +26,11 @@ export default function Skills() {
 							alt=""
 						/>
 						<div className="m-4">
-							<div className="flex ">
+							{/* <div className="flex ">
 								<img className="w-4 m-1" src={user} alt="user" />
 								<p className="underline font-bold">Über mich</p>
-							</div>
+							</div> */}
+							<Headline svg={user} styleSvg="w-4" title="Über mich" Tag="p" styleDiv="" />
 							<p>
 								Ich bin ein Fullstack-Developer aus Waiblingen (Stuttgart). JavaScript ist meine
 								Leidenschaft, egal ob dynamisches rendern von UI-Komponenten mit React.js oder Backend

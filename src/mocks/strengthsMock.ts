@@ -19,6 +19,6 @@ export default [
 		id: 3,
 		headline: "Dynamisch",
 		svg: atom,
-		caption: "Skalierbare Komponenten erstellen",
+		caption: "Intelligenz ist die Fähigkeit sich anzupassen",
 	},
 ];
