@@ -20,20 +20,19 @@ export default function Skills() {
 							src={profilepicture}
 							alt=""
 						/>
+
 						<div className="m-4">
-							{/* <div className="flex ">
-								<img className="w-4 m-1" src={user} alt="user" />
-								<p className="underline font-bold">Über mich</p>
-							</div> */}
 							<TextWithSvg svg={user} styleSvg="w-4" title="Über mich:" Tag="p" styleDiv="" />
 							<p>
 								Ich bin ein Fullstack-Developer aus Waiblingen (Stuttgart). JavaScript ist meine
 								Leidenschaft, egal ob dynamisches rendern von UI-Komponenten mit React.js oder Backend
-								Controller mit Express.js.
+								Controller mit Express.js. In meiner Freizeit programmiere ich entweder an einem
+								aktuellen Projekt oder nehme Kurse für meinen Udemy Channel auf.
 							</p>
 						</div>
 					</div>
-					<figure className="-ml-8">
+					<img className="m-2" src="https://www.codewars.com/users/Relentl3zz/badges/small" alt="CodeWars" />
+					<figure>
 						<embed src="https://wakatime.com/share/@relentl3zz/cc7c73a5-cad4-4c12-877e-5eea8893b562.svg"></embed>
 					</figure>
 				</div>

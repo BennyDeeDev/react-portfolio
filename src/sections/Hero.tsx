@@ -4,14 +4,14 @@ import Typewriter from "typewriter-effect";
 
 export default function Hero() {
 	return (
-		<div className="flex bg-black h-screen w-screen text-white text-3xl">
-			<div className="flex justify-center items-center flex-grow">
-				<div className="relative w-1/2 -mt-16">
+		<div className="flex bg-black h-screen text-white text-3xl ">
+			<div className="flex justify-center items-center flex-grow ">
+				<div className="relative w-1/2 -mt-16 ">
 					<span className="text-terminal-green">user@b-derksen.de</span>
 					<span>
-						:<span className=" text-blue-500">~</span>$
+						:<span className="text-blue-500">~</span>$
 					</span>
-					<div className="inline absolute ml-1">
+					<div className="inline absolute ml-1 ">
 						<Typewriter
 							options={{
 								cursor: "_",

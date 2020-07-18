@@ -14,9 +14,9 @@ export default function CvSection({ title, svg, array }) {
 
 				<div className="flex mt-4">
 					<div className="flex flex-col items-center">
-						<img className="w-12 -mb-4 z-10" src={waypoint} alt="" />
-						<div className="w-2 h-full bg-minimalist-yellow"></div>
-						<img className="w-12" src={circle} alt="" />
+						<img className="w-12 -mb-4 z-10" src={waypoint} alt="waypoint" />
+						<div className="w-1 h-full bg-minimalist-yellow"></div>
+						<img className="w-12" src={circle} alt="circle" />
 					</div>
 
 					<div className="flex-col">

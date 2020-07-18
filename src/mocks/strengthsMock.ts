@@ -17,7 +17,7 @@ export default [
 	},
 	{
 		id: 3,
-		headline: "Dynamisch",
+		headline: "Anpassbar",
 		svg: atom,
 		caption: "Intelligenz ist die Fähigkeit sich anzupassen",
 	},
