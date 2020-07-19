@@ -14,7 +14,7 @@ export default {
 			timespan: "2020 März - 2020 Mai",
 			location: "Netze BW (#Kunde: agiles Entwickler Team) in Stuttgart",
 			text:
-				"Programmieren von React-Komponenten im Kundenportal der Netze BW, mit Hilfe von TypeScript und Redux",
+				"Programmieren von React-Komponenten im Kundenportal der Netze BW, mit Hilfe von Azure, TypeScript und Redux",
 		},
 		{
 			id: 3,
