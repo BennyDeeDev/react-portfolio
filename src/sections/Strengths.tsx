@@ -2,6 +2,8 @@ import React from "react";
 import strengthsMock from "../mocks/strengthsMock";
 import strength from "../images/strength.svg";
 import HeadTitle from "../components/HeadTitle";
+import Fade from "react-reveal/Fade";
+import VisibilitySensor from "react-visibility-sensor";
 
 export default function Strengths() {
 	return (
@@ -9,11 +11,15 @@ export default function Strengths() {
 			<HeadTitle svg={strength} title="Meine Stärken" />
 			<div className="flex justify-between">
 				{strengthsMock.map((strength, index) => (
-					<div key={index} className="flex flex-col items-center ">
-						<h2 className="text-3xl">{strength.headline}</h2>
-						<img className="w-32 m-4" src={strength.svg} alt={strength.headline} />
-						<p>{strength.caption}</p>
-					</div>
+					<VisibilitySensor>
+						<Fade cascade delay={250} duration={2100}>
+							<div key={index} className="flex flex-col items-center ">
+								<h2 className="text-3xl">{strength.headline}</h2>
+								<img className="w-32 m-4" src={strength.svg} alt={strength.headline} />
+								<p>{strength.caption}</p>
+							</div>
+						</Fade>
+					</VisibilitySensor>
 				))}
 			</div>
 		</div>

@@ -1,6 +1,6 @@
 import React from "react";
 import skillsMock from "../mocks/skillsMock";
-import Skill from "../components/Skill";
+
 import skill from "../images/skills.svg";
 import TextWithSvg from "../components/TextWithSvg";
 import profilepicture from "../images/profilepicture.jpg";
@@ -9,6 +9,11 @@ import HeadTitle from "../components/HeadTitle";
 import linksMock from "../mocks/linksMock";
 
 import info from "../images/info.svg";
+import SkillSection from "../components/SkillSection";
+
+import frontend from "../images/frontend.svg";
+import backend from "../images/backend.svg";
+import internet from "../images/internet.svg";
 
 export default function Skills() {
 	return (
@@ -59,7 +64,10 @@ export default function Skills() {
 					</div>
 				</div>
 				<div className="flex-col flex-grow ml-12">
-					<h2>Frontend</h2>
+					<SkillSection array={skillsMock.frontend} svg={frontend} title="Front End" />
+					<SkillSection array={skillsMock.backend} svg={backend} title="Back End" />
+					<SkillSection array={skillsMock.general} svg={internet} title="Allgemein" />
+					{/* 					<h2>Frontend</h2>
 					{skillsMock.frontend.map((skill, index) => (
 						<Skill key={index} text={skill.text} svg={skill.svg} progress={skill.progress} />
 					))}
@@ -70,7 +78,7 @@ export default function Skills() {
 					<h2>General</h2>
 					{skillsMock.general.map((skill, index) => (
 						<Skill key={index} text={skill.text} svg={skill.svg} progress={skill.progress} />
-					))}
+					))} */}
 				</div>
 			</div>
 		</div>
