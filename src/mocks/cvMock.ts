@@ -2,35 +2,40 @@ export default {
 	work: [
 		{
 			id: 1,
+			title: "Praktikum in der Frontend Entwicklung",
 			timespan: "2020 Mai - 2020 August",
 			location: "WebSix GmbH in Backnang",
 			text:
-				"Pflegen von Landing Pages mit HTML, Styling von Landing Pages mit Tailwind CSS, Programmierung eines Beleg-Prüfers in Vue.js",
+				"Pflegen von Landing Pages mit HTML, Stylen von Landing Pages mit Tailwind CSS und/oder Sass, Programmierung eines Beleg-Prüfers in Vue.js",
 		},
 		{
 			id: 2,
+			title: "Duales Studium zweite Praxisphase",
 			timespan: "2020 März - 2020 Mai",
-			location: "Zweite Praxisphase bei der Netze BW (#Kunde: agiles Entwickler Team) in Stuttgart",
+			location: "Netze BW (#Kunde: agiles Entwickler Team) in Stuttgart",
 			text:
 				"Programmieren von React-Komponenten im Kundenportal der Netze BW, mit Hilfe von TypeScript und Redux",
 		},
 		{
 			id: 3,
+			title: "Duales Studium erste Praxisphase",
 			timespan: "2019 Oktober  - 2020 November",
-			location: "Erste Praxisphase bei der NetCom BW in Stuttgart",
+			location: "NetCom BW in Stuttgart",
 			text: "Programmieren eines Python Skriptes welches Duplikate in einer Excel Tabelle findet",
 		},
 		{
 			id: 4,
+			title: "Aushilfsjob",
 			timespan: "2018 Juni - 2019 August",
 			location: "Intaste Store Stuttgart",
-			text: "Aushilfsjob als Verkäufer im E-Zigaretten Laden",
+			text: "E-Zigaretten Laden",
 		},
 		{
 			id: 5,
+			title: "Aushilfsjob",
 			timespan: "2016 Juni - 2016 August",
 			location: "Famila in Westerland",
-			text: "Aushilfsjob im Getränkemarkt",
+			text: "Getränkemarkt",
 		},
 	],
 	education: [
