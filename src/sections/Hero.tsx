@@ -7,7 +7,7 @@ export default function Hero() {
 		<div className="flex bg-black h-screen text-white text-3xl ">
 			<div className="flex justify-center items-center flex-grow ">
 				<div className="relative w-1/2 -mt-16 ">
-					<span className="text-terminal-green">user@b-derksen.de</span>
+					<span className="text-terminal-green">user@benjaminderksen.de</span>
 					<span>
 						:<span className="text-blue-500">~</span>$
 					</span>
@@ -18,7 +18,7 @@ export default function Hero() {
 							}}
 							onInit={(typewriter) => {
 								typewriter
-									.pauseFor(2500)
+									.pauseFor(1000)
 									.typeString("./gretU")
 									.pauseFor(10)
 									.deleteChars(2)
@@ -32,9 +32,9 @@ export default function Hero() {
 							options={{ cursor: "" }}
 							onInit={(typewriter) => {
 								typewriter
-									.pauseFor(5000)
+									.pauseFor(3500)
 									.pasteString(
-										"Hey, ich bin Benjamin Derksen. <br/> Ich bin ein ambitionierter JavaScript Entwickler."
+										"Hey, ich bin Benny. <br/> Ich bin ein ambitionierter JavaScript Entwickler."
 									)
 									.start();
 							}}

@@ -13,9 +13,9 @@ import vscode from "../images/vscode.svg";
 
 export default {
 	frontend: [
-		{ id: 1, svg: html5, text: "HTML", progress: "80%" },
-		{ id: 2, svg: css3, text: "CSS", progress: "60%" },
-		{ id: 3, svg: javascript, text: "JavaScript", progress: "80%" },
+		{ id: 1, svg: html5, text: "HTML", progress: "90%" },
+		{ id: 2, svg: css3, text: "CSS", progress: "80%" },
+		{ id: 3, svg: javascript, text: "JavaScript", progress: "85%" },
 		{ id: 4, svg: react, text: "React", progress: "80%" },
 		{ id: 5, svg: vue, text: "Vue", progress: "90%" },
 	],
