@@ -1,4 +1,6 @@
 import React from "react";
+import VisibilitySensor from "react-visibility-sensor";
+import Reveal from "react-reveal/Reveal";
 
 export default function Skill({ text, svg, progress }) {
 	return (
@@ -9,8 +11,13 @@ export default function Skill({ text, svg, progress }) {
 					<span className="text-xs p-2">{text}</span>
 				</div>
 				<div className="bg-gray-500 w-full h-6">
-					<div className="bg-minimalist-teal h-6" style={{ width: progress }}></div>
+					<VisibilitySensor>
+						<Reveal effect="animateProgressBar" duration={2000}>
+							<div className="bg-minimalist-teal h-6" style={{ width: progress }}></div>
+						</Reveal>
+					</VisibilitySensor>
 				</div>
+
 				<span className="text-xs w-12 px-4 flex items-center">{progress}</span>
 			</div>
 		</div>

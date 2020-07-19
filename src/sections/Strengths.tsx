@@ -12,13 +12,13 @@ export default function Strengths() {
 			<div className="flex justify-between">
 				{strengthsMock.map((strength, index) => (
 					<VisibilitySensor>
-						<Fade cascade delay={250} duration={2100}>
-							<div key={index} className="flex flex-col items-center ">
+						<div key={index} className="flex flex-col items-center ">
+							<Fade cascade delay={250} duration={2100}>
 								<h2 className="text-3xl">{strength.headline}</h2>
 								<img className="w-32 m-4" src={strength.svg} alt={strength.headline} />
 								<p>{strength.caption}</p>
-							</div>
-						</Fade>
+							</Fade>
+						</div>
 					</VisibilitySensor>
 				))}
 			</div>

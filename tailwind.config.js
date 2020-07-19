@@ -10,6 +10,12 @@ module.exports = {
 				"minimalist-brown": "#594F4F",
 				"terminal-green": "#4AF626",
 			},
+			transitionDuration: {
+				"2000": "2000ms",
+				"2500": "2500ms",
+				"3000": "3000ms",
+				"3500": "3500ms",
+			},
 		},
 	},
 	variants: {},
