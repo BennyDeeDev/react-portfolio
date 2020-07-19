@@ -6,6 +6,9 @@ import TextWithSvg from "../components/TextWithSvg";
 import profilepicture from "../images/profilepicture.jpg";
 import user from "../images/user.svg";
 import HeadTitle from "../components/HeadTitle";
+import linksMock from "../mocks/linksMock";
+
+import info from "../images/info.svg";
 
 export default function Skills() {
 	return (
@@ -13,34 +16,47 @@ export default function Skills() {
 			<HeadTitle svg={skill} title="Meine Fähigkeiten" />
 			<div className="flex justify-between">
 				<div className="flex-col flex-1 justify-center">
-					<div className="bg-gray-300 mt-4 p-4 rounded-lg">
+					<div className="bg-gray-300 p-4 mt-3 rounded-lg">
 						<div className="flex">
 							<img
-								className="object-cover rounded-full border border-minimalist-gray"
-								style={{ width: "12rem", height: "12rem" }}
+								className="object-cover rounded-full border border-minimalist-gray w-48 h-48"
 								src={profilepicture}
 								alt=""
 							/>
 
 							<div className="m-4">
-								<TextWithSvg svg={user} styleSvg="w-4" title="Über mich:" Tag="p" styleDiv="" />
+								<TextWithSvg svg={user} styleSvg="w-4" title="Über mich:" Tag="h6" styleDiv="" />
 								<p>
-									Ich bin ein Fullstack-Developer aus Waiblingen (Stuttgart). JavaScript ist meine
+									Ich bin ein JavaScript-Entwickler aus Waiblingen (Stuttgart). JavaScript ist meine
 									Leidenschaft, egal ob dynamisches rendern von UI-Komponenten mit React.js oder
 									Backend Controller mit Express.js. In meiner Freizeit programmiere ich entweder an
 									einem aktuellen Projekt oder nehme Kurse für meinen Udemy Channel auf.
 								</p>
 							</div>
 						</div>
-						<img
-							className="w-full h-5"
-							src="https://www.codewars.com/users/Relentl3zz/badges/small"
-							alt="CodeWars"
-						/>
+						<TextWithSvg svg={info} styleSvg="w-4" title="Interessante Links:" Tag="h6" styleDiv="" />
+						{linksMock.map((link, index) => (
+							<div className="my-4" key={index}>
+								<div className="flex">
+									<TextWithSvg
+										svg={link.svg}
+										styleSvg="w-4"
+										title={link.title + ":"}
+										Tag="p"
+										styleDiv=""
+									/>
+									<a
+										className="ml-1 underline text-minimalist-gray"
+										href={link.link}
+										target="_blank"
+										rel="noopener noreferrer">
+										{link.link}
+									</a>
+								</div>
+								<p>{link.text}</p>
+							</div>
+						))}
 					</div>
-					<figure>
-						<embed src="https://wakatime.com/share/@relentl3zz/cc7c73a5-cad4-4c12-877e-5eea8893b562.svg"></embed>
-					</figure>
 				</div>
 				<div className="flex-col flex-grow ml-12">
 					<h2>Frontend</h2>

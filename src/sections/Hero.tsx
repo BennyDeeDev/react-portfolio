@@ -34,7 +34,7 @@ export default function Hero() {
 								typewriter
 									.pauseFor(5000)
 									.pasteString(
-										"Hey, ich bin Benjamin Derksen. <br/> Ich bin ein ambitionierter Full-Stack Entwickler."
+										"Hey, ich bin Benjamin Derksen. <br/> Ich bin ein ambitionierter JavaScript Entwickler."
 									)
 									.start();
 							}}

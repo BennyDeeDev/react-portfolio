@@ -20,8 +20,8 @@ export default function CvSection({ title, svg, array }) {
 					</div>
 
 					<div className="flex-col">
-						{array.map((cvItem) => (
-							<div className="p-1">
+						{array.map((cvItem, index) => (
+							<div key={index} className="p-1">
 								<CvItem timespan={cvItem.timespan} text={cvItem.text} location={cvItem.location} />
 							</div>
 						))}
