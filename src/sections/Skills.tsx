@@ -15,6 +15,7 @@ import frontend from "../images/frontend.svg";
 import backend from "../images/backend.svg";
 import internet from "../images/internet.svg";
 
+//TODO: progress bar animieren nicht
 export default function Skills() {
 	return (
 		<div id="skills">
