@@ -57,7 +57,7 @@ h6 {
 	@apply font-semibold text-sm;
 
 	@screen md {
-		@apply text-base
+		@apply text-base;
 	}
 }
 
@@ -70,7 +70,9 @@ a:hover {
 }
 
 .animateProgressBar {
+	animation: load 2s 0s;
 	width: calc(100%);
+	transition-timing-function: ease-in-out;
 }
 
 @keyframes load {
