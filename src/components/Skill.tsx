@@ -6,26 +6,19 @@ export default function Skill({ text, svg, progress }) {
 	return (
 		<div className="flex my-4">
 			<div className="border border-minimalist-gray rounded-lg flex w-full">
-				<div className="bg-gray-300 w-24 h-6 flex items-center p-1 flex-shrink-0">
+				<div className="bg-gray-300 w-24 h-6 flex items-center p-1 rounded-l-lg flex-shrink-0">
 					<img className="w-4 h-4" src={svg} alt={text} />
-					<span className="text-xs p-2 whitespace-no-wrap">
-						{text}
-					</span>
+					<span className="text-xs p-2 whitespace-no-wrap">{text}</span>
 				</div>
 				<div className="bg-gray-500 w-full h-6">
 					<VisibilitySensor>
-						<Reveal effect="animateProgressBar" duration={2000}>
-							<div
-								className="bg-minimalist-teal h-6"
-								style={{ width: progress }}
-							></div>
+						<Reveal effect="animateProgressBar" duration={1500}>
+							<div className="bg-minimalist-teal h-6" style={{ width: progress }}></div>
 						</Reveal>
 					</VisibilitySensor>
 				</div>
 
-				<span className="text-xs w-12 px-4 flex items-center">
-					{progress}
-				</span>
+				<span className="text-xs w-12 px-4 flex items-center">{progress}</span>
 			</div>
 		</div>
 	);
