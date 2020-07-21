@@ -15,6 +15,7 @@ import frontend from "../images/frontend.svg";
 import backend from "../images/backend.svg";
 import internet from "../images/internet.svg";
 
+//TODO: progress bar animieren nicht
 export default function Skills() {
 	return (
 		<div id="skills">
@@ -29,13 +30,13 @@ export default function Skills() {
 								alt=""
 							/>
 
-							<div className="m-4">
+							<div className="my-4 md:m-4">
 								<TextWithSvg
 									svg={user}
 									styleSvg="w-4"
 									title="Über mich:"
 									Tag="h6"
-									styleDiv=""
+									styleDiv="my-1"
 								/>
 								<p>
 									Ich bin ein JavaScript-Entwickler aus
@@ -58,9 +59,9 @@ export default function Skills() {
 						/>
 						{linksMock.map((link, index) => (
 							<div className="my-4" key={index}>
-								<div className=" md:flex">
+								<div className="md:flex">
 									<a
-										className="ml-1 underline text-minimalist-gray"
+										className="md:ml-1 underline text-minimalist-gray"
 										href={link.link}
 										target="_blank"
 										rel="noopener noreferrer"
