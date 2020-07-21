@@ -4,28 +4,61 @@
 
 @tailwind base;
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply tracking-tight leading-tight;
+}
+
 h1 {
-	@apply font-bold text-4xl text-center underline;
+	@apply font-bold text-3xl text-center underline;
+
+	@screen md {
+		@apply text-4xl;
+	}
 }
 
 h2 {
-	@apply font-semibold text-3xl;
+	@apply font-semibold text-2xl;
+
+	@screen md {
+		@apply text-3xl;
+	}
 }
 
 h3 {
-	@apply font-semibold text-2xl;
+	@apply font-semibold text-xl;
+
+	@screen md {
+		@apply text-2xl;
+	}
 }
 
 h4 {
-	@apply font-semibold text-xl;
+	@apply font-semibold text-lg;
+
+	@screen md {
+		@apply text-xl;
+	}
 }
 
 h5 {
-	@apply font-semibold text-lg;
+	@apply font-semibold text-base;
+
+	@screen md {
+		@apply text-lg;
+	}
 }
 
 h6 {
-	@apply font-semibold text-base;
+	@apply font-semibold text-sm;
+
+	@screen md {
+		@apply text-base
+	}
 }
 
 a {
@@ -39,6 +72,7 @@ a:hover {
 .animateProgressBar {
 	width: calc(100%);
 }
+
 @keyframes load {
 	from {
 		width: 0%;
