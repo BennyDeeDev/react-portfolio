@@ -27,7 +27,7 @@ export default function NavBar() {
 		));
 	};
 
-	//TODO: animate open and close
+	//TODO: animate open and close ? https://www.npmjs.com/package/react-responsive !load svgs with navbar !mobile höhrere offset vom smooth scrolling
 	const navHamburger = () => {
 		return (
 			<React.Fragment>

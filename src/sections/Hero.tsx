@@ -4,9 +4,9 @@ import Typewriter from "typewriter-effect";
 
 export default function Hero() {
 	return (
-		<div className="flex bg-black h-screen text-white md:text-3xl">
+		<div className="flex bg-black h-screen text-white text-xl md:text-3xl p-8">
 			<div className="flex justify-center items-center flex-grow ">
-				<div className="w-1/2 -mt-16 md:relative">
+				<div className="-mt-16 relative md:relative">
 					<span className="text-terminal-green">
 						user@benjaminderksen.de
 					</span>
