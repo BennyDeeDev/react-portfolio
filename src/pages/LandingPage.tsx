@@ -24,21 +24,15 @@ const isMobile = () => {
 export default function LandingPage() {
 	return (
 		<div>
-			{isMobile ? (
-				<div>
-					<Hero />
-					<NavBar />
-					<div className="mx-auto max-w-screen-xl px-4 py-8">
-						<Strengths />
-						<Skills />
-						<Cv />
-					</div>
+			<Hero />
+			<NavBar />
+			<div className="mx-auto max-w-screen-xl px-4 py-8">
+				<Strengths />
+				<Skills />
+				<Cv />
+			</div>
 
-					<Footer />
-				</div>
-			) : (
-				<MobileWip />
-			)}
+			<Footer />
 		</div>
 	);
 }
