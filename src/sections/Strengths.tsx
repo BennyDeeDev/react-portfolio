@@ -9,13 +9,22 @@ export default function Strengths() {
 	return (
 		<div id="strengths">
 			<HeadTitle svg={strength} title="Meine Stärken" />
-			<div className="flex justify-between">
+			<div className="flex-col justify-between md:flex">
 				{strengthsMock.map((strength, index) => (
 					<VisibilitySensor>
-						<div key={index} className="flex flex-col items-center ">
+						<div
+							key={index}
+							className="flex flex-col items-center "
+						>
 							<Fade cascade delay={250} duration={2100}>
-								<h2 className="text-3xl">{strength.headline}</h2>
-								<img className="w-32 m-4" src={strength.svg} alt={strength.headline} />
+								<h2 className="text-3xl">
+									{strength.headline}
+								</h2>
+								<img
+									className="w-32 m-4"
+									src={strength.svg}
+									alt={strength.headline}
+								/>
 								<p>{strength.caption}</p>
 							</Fade>
 						</div>

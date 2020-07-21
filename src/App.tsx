@@ -3,7 +3,7 @@ import LandingPage from "./pages/LandingPage";
 
 function App() {
 	return (
-		<div className="">
+		<div className="overflow-hidden">
 			<LandingPage />
 		</div>
 	);

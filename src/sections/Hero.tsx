@@ -4,19 +4,21 @@ import Typewriter from "typewriter-effect";
 
 export default function Hero() {
 	return (
-		<div className="flex bg-black h-screen text-white text-3xl ">
+		<div className="flex bg-black h-screen text-white md:text-3xl">
 			<div className="flex justify-center items-center flex-grow ">
-				<div className="relative w-1/2 -mt-16 ">
-					<span className="text-terminal-green">user@benjaminderksen.de</span>
+				<div className="w-1/2 -mt-16 md:relative">
+					<span className="text-terminal-green">
+						user@benjaminderksen.de
+					</span>
 					<span>
 						:<span className="text-blue-500">~</span>$
 					</span>
-					<div className="inline absolute ml-1 ">
+					<div className="inline ml-1 md:absolute">
 						<Typewriter
 							options={{
-								cursor: "_",
+								cursor: "_"
 							}}
-							onInit={(typewriter) => {
+							onInit={typewriter => {
 								typewriter
 									.pauseFor(1000)
 									.typeString("./gretU")
@@ -30,7 +32,7 @@ export default function Hero() {
 					<div className="absolute">
 						<Typewriter
 							options={{ cursor: "" }}
-							onInit={(typewriter) => {
+							onInit={typewriter => {
 								typewriter
 									.pauseFor(3500)
 									.pasteString(
