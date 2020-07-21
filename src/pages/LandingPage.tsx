@@ -6,6 +6,7 @@ import Skills from "../sections/Skills";
 import Cv from "../sections/Cv";
 import Footer from "../sections/Footer";
 
+//TODO: Schriftart aussuchen
 export default function LandingPage() {
 	return (
 		<div>
