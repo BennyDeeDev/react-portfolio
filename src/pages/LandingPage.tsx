@@ -24,7 +24,7 @@ const isMobile = () => {
 export default function LandingPage() {
 	return (
 		<div>
-			{true ? (
+			{isMobile ? (
 				<div>
 					<Hero />
 					<NavBar />

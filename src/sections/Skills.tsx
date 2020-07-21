@@ -19,10 +19,10 @@ export default function Skills() {
 	return (
 		<div id="skills">
 			<HeadTitle svg={skill} title="Meine Fähigkeiten" />
-			<div className="flex-col justify-between md:flex">
+			<div className="flex flex-col justify-between md:flex-row">
 				<div className="flex-col flex-1 justify-center">
 					<div className="bg-gray-300 p-4 mt-3 rounded-lg">
-						<div className="flex-col md:flex">
+						<div className="flex flex-col md:flex-row">
 							<img
 								className="object-cover rounded-full border border-minimalist-gray w-48 h-48"
 								src={profilepicture}

@@ -9,7 +9,7 @@ export default function Strengths() {
 	return (
 		<div id="strengths">
 			<HeadTitle svg={strength} title="Meine Stärken" />
-			<div className="flex-col justify-between md:flex">
+			<div className="flex flex-col justify-between md:flex-row">
 				{strengthsMock.map((strength, index) => (
 					<VisibilitySensor>
 						<div

@@ -3,6 +3,7 @@ import navbarMock from "../mocks/navbarMock";
 
 import { Link } from "react-scroll";
 
+//TODO: not sticky on other devices?
 export default function NavBar() {
 	return (
 		<div className="w-full h-12 bg-gray-700 sticky top-0 z-50 flex justify-around items-center text-white border-b-4 border-minimalist-lime">
@@ -14,7 +15,8 @@ export default function NavBar() {
 							to={nav.id}
 							spy={true}
 							smooth={true}
-							offset={-100}>
+							offset={-100}
+						>
 							{nav.text}
 						</Link>
 					</div>
