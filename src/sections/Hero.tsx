@@ -2,16 +2,16 @@ import React from "react";
 //@ts-ignore
 import Typewriter from "typewriter-effect";
 
-//TODO: 	style={{ width: "604px", height: "110px" }} mobile height: 135px
+//TODO: 	style={{ width: "604px", height: "110px" }} mobile height: 135px //Ubuntu in spans?
 export default function Hero() {
 	return (
 		<div className="flex bg-black h-screen text-white text-xl md:text-3xl p-8">
 			<div className="flex justify-center items-center flex-grow ">
 				<div className="relative md:w-1/2">
-					<span className="text-terminal-green">
+					<h1 className="inline-block text-terminal-green">
 						user@benjaminderksen.de
-					</span>
-					<span>
+					</h1>
+					<span className="">
 						:<span className="text-blue-500">~</span>$
 					</span>
 					<div className="inline ml-1 md:absolute">
@@ -35,7 +35,7 @@ export default function Hero() {
 							options={{ cursor: "" }}
 							onInit={typewriter => {
 								typewriter
-									.pauseFor(3500)
+									.pauseFor(4500)
 									.pasteString(
 										"Hey, ich bin Benny. <br/> Ich bin ein ambitionierter JavaScript Entwickler."
 									)
