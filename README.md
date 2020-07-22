@@ -47,8 +47,9 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 Dieses Projekt ist mein Portfolio welches mit dem folgenden Stack aufgebaut worden ist: <br/>
 
 <ul>
- <li>React mit create-react-app</li>
- <li>Tailwind CSS mit Sass</li>
+  <li>React mit create-react-app</li>
+  <li>TypeScript für TypeChecking, mit strict auf false, types folgen bald</li>
+  <li>Tailwind CSS mit Sass</li>
 </ul>
 
 Deployed und gehostet wird mit netlify aus dem Master-branch.
