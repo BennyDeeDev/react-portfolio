@@ -3,20 +3,21 @@
 } */
 
 * {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
 @tailwind base;
 
+@tailwind components;
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	@apply tracking-tight leading-tight;
 }
 
@@ -70,10 +71,9 @@ h6 {
 
 a {
 	@apply opacity-75;
-}
-
-a:hover {
-	@apply opacity-100 transition ease-in-out duration-300;
+	&:hover {
+		@apply opacity-100 transition ease-in-out duration-300;
+	}
 }
 
 .animateProgressBar {
@@ -87,6 +87,4 @@ a:hover {
 		width: 0%;
 	}
 }
-
-@tailwind components;
 @tailwind utilities;

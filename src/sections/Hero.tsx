@@ -8,9 +8,9 @@ export default function Hero() {
 		<div className="flex bg-black h-screen text-white text-xl md:text-3xl p-8">
 			<div className="flex justify-center items-center flex-grow ">
 				<div className="relative md:w-1/2">
-					<h1 className="inline-block text-terminal-green">
+					<h2 className="inline-block text-terminal-green">
 						user@benjaminderksen.de
-					</h1>
+					</h2>
 					<span className="">
 						:<span className="text-blue-500">~</span>$
 					</span>
