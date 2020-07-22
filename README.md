@@ -50,4 +50,5 @@ Dieses Projekt ist mein Portfolio welches mit dem folgenden Stack aufgebaut word
 <li>React mit create-react-app
 <li>Tailwind CSS mit Sass
 <ul>
+
 Deployed und gehostet wird mit netlify aus dem Master-branch.
