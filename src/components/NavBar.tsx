@@ -27,13 +27,16 @@ export default function NavBar() {
 		));
 	};
 
-	//TODO: animate open and close ? https://www.npmjs.com/package/react-responsive !load svgs with navbar !mobile höhrere offset vom smooth scrolling
+	/* import Reveal from "react-reveal/Reveal";
+	TODO: animate open and close ? https://www.npmjs.com/package/react-responsive !load svgs with navbar !mobile höhrere offset vom smooth scrolling */
+
 	const navHamburger = () => {
 		return (
 			<React.Fragment>
 				<div className="self-end">
 					<Hamburger toggled={isOpen} toggle={setOpen} />
 				</div>
+
 				<div className="">{isOpen ? navBarItems() : null}</div>
 			</React.Fragment>
 		);

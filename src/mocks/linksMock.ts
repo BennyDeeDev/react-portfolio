@@ -8,14 +8,16 @@ export default [
 		svg: github,
 		title: "GitHub",
 		link: "https://github.com/Relentl3zz",
-		text: "Hier kannst du meine aktuellen Projekte einsehen unter anderem auch den Code dieser Webseite",
+		text:
+			"Hier sind meine aktuellen Projekte gelistet, unter anderem auch der Code dieser Webseite unter react-portfolio."
 	},
 	{
 		id: 2,
 		svg: udemy,
 		title: "Udemy",
 		link: "https://www.udemy.com/user/benjamin-derksen/",
-		text: "Unter diesem Link werden meine aktuellen Kurse, deren Teilnehmeranzahl und Bewertungen angezeigt",
+		text:
+			"Unter diesem Link werden meine aktuellen Kurse, deren Teilnehmeranzahl und Bewertungen angezeigt."
 	},
 	{
 		id: 3,
@@ -23,6 +25,6 @@ export default [
 		title: "CodeWars",
 		link: "https://www.codewars.com/users/Relentl3zz",
 		text:
-			"Wenn ich noch Freizeit habe löse ich oft Algorithmus Challenges mit JavaScript, hier kannst du sehen wieviele und wie ich sie gelöst habe",
-	},
+			"Wenn ich noch Freizeit habe löse ich oft Algorithmus Challenges mit JavaScript, hier kann man sehen wieviele und wie ich sie gelöst habe."
+	}
 ];

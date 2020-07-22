@@ -15,28 +15,27 @@ import frontend from "../images/frontend.svg";
 import backend from "../images/backend.svg";
 import internet from "../images/internet.svg";
 
-//TODO: progress bar animieren nicht
 export default function Skills() {
 	return (
 		<div id="skills">
 			<HeadTitle svg={skill} title="Meine Fähigkeiten" />
 			<div className="flex flex-col justify-between md:flex-row">
 				<div className="flex-col flex-1 justify-center">
-					<div className="bg-gray-300 p-4 mt-3 rounded-lg">
-						<div className="flex flex-col md:flex-row">
+					<div className="bg-gray-300 p-4 mt-3 rounded-lg shadow-md">
+						<div className="flex flex-col lg:flex-row">
 							<img
 								className="object-cover rounded-full border border-minimalist-gray w-48 h-48"
 								src={profilepicture}
 								alt=""
 							/>
 
-							<div className="my-4 md:m-4">
+							<div className="my-4 lg:m-4">
 								<TextWithSvg
 									svg={user}
-									styleSvg="w-4"
+									styleSvg="w-4 -mt-1"
 									title="Über mich:"
 									Tag="h6"
-									styleDiv="my-1"
+									styleDiv="my-1 "
 								/>
 								<p>
 									Ich bin ein JavaScript-Entwickler aus

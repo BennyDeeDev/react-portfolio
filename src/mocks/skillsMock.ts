@@ -26,7 +26,7 @@ export default {
 	],
 	general: [
 		{ id: 6, svg: typescript, text: "TypeScript", progress: "60%" },
-		{ id: 1, svg: git, text: "Git", progress: "40%" },
+		{ id: 1, svg: git, text: "Git", progress: "60%" },
 		{ id: 2, svg: vscode, text: "VSCode", progress: "80%" },
 		/* { id: 3, svg: scrum, text: "Agiles Arbeiten", progress: "20%" } */
 	],

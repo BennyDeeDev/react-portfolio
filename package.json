@@ -12,6 +12,7 @@
 		"@types/react-dom": "^16.9.8",
 		"@types/react-scroll": "^1.5.5",
 		"hamburger-react": "^2.1.1",
+		"node-sass": "^4.14.1",
 		"react": "^16.13.1",
 		"react-device-detect": "^1.13.1",
 		"react-dom": "^16.13.1",
@@ -23,9 +24,11 @@
 		"typewriter-effect": "^2.13.1"
 	},
 	"scripts": {
-		"start": "npm run tailwind:css && react-scripts start",
-		"tailwind:css": "tailwind build src/tailwind.css -c tailwind.config.js -o src/index.css",
-		"build": "npm run tailwind:css && react-scripts build"
+		"start": "npm run build:css && react-scripts start",
+		"build": "npm run build:css && react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"build:css": "postcss src/styles/tailwind.scss -o src/styles/index.scss "
 	},
 	"eslintConfig": {
 		"extends": "react-app"
@@ -43,6 +46,8 @@
 		]
 	},
 	"devDependencies": {
-		"tailwindcss": "^1.4.6"
+		"autoprefixer": "^9.8.5",
+		"postcss-cli": "^7.1.1",
+		"tailwindcss": "^1.5.2"
 	}
 }
