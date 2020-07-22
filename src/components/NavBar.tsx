@@ -6,8 +6,6 @@ import Hamburger from "hamburger-react";
 
 import { isMobile } from "react-device-detect";
 
-import Reveal from "react-reveal/Reveal";
-
 export default function NavBar() {
 	const [isOpen, setOpen] = useState(false);
 
@@ -29,7 +27,9 @@ export default function NavBar() {
 		));
 	};
 
-	//TODO: animate open and close ? https://www.npmjs.com/package/react-responsive !load svgs with navbar !mobile höhrere offset vom smooth scrolling
+	/* import Reveal from "react-reveal/Reveal";
+	TODO: animate open and close ? https://www.npmjs.com/package/react-responsive !load svgs with navbar !mobile höhrere offset vom smooth scrolling */
+
 	const navHamburger = () => {
 		return (
 			<React.Fragment>

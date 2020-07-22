@@ -3,7 +3,6 @@ import TextWithSvg from "./TextWithSvg";
 import pin from "../images/pin.svg";
 import calendar from "../images/calendar.svg";
 
-//TODO: Iphone 5 Overflow from Container
 export default function cvItem({ timespan, text, location, title }) {
 	return (
 		<div className="flex items-center">
