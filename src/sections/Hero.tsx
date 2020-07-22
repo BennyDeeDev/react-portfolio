@@ -14,7 +14,7 @@ export default function Hero() {
 					<span className="">
 						:<span className="text-blue-500">~</span>$
 					</span>
-					<div className="inline ml-1 md:absolute">
+					<div className="inline ml-1 lg:absolute">
 						<Typewriter
 							options={{
 								cursor: "_"
