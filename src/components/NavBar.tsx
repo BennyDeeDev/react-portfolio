@@ -20,7 +20,8 @@ export default function NavBar() {
 						to={nav.id}
 						spy={true}
 						smooth={true}
-						offset={-100}>
+						offset={-100}
+					>
 						{nav.text}
 					</Link>
 				</div>
@@ -36,9 +37,7 @@ export default function NavBar() {
 					<Hamburger toggled={isOpen} toggle={setOpen} />
 				</div>
 
-				<Reveal effect="animateProgressBar" duration={1500}>
-					<div className="">{isOpen ? navBarItems() : null}</div>
-				</Reveal>
+				<div className="">{isOpen ? navBarItems() : null}</div>
 			</React.Fragment>
 		);
 	};

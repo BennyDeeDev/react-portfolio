@@ -76,15 +76,27 @@ a {
 	}
 }
 
-.animateProgressBar {
-	animation: load 2s 0s;
+.animateWidth {
+	animation: loadWidth 2s 0s;
 	width: calc(100%);
 	transition-timing-function: ease-in-out;
 }
 
-@keyframes load {
+@keyframes loadWidth {
 	from {
 		width: 0%;
+	}
+}
+
+.animateHeight {
+	animation: loadHeight 2s 0s;
+	height: calc(100%);
+	transition-timing-function: ease-in-out;
+}
+
+@keyframes loadHeight {
+	from {
+		height: 0%;
 	}
 }
 @tailwind utilities;

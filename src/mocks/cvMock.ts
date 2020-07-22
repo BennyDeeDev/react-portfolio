@@ -45,7 +45,7 @@ export default {
 			timespan: "2019 August - 2020 Mai",
 			location: "DHBW Stuttgart",
 			text:
-				"Abschluss: abgebrochen (Duales Studium in Informatik/Informationstechnik bei der Netze BW in Stuttgart)"
+				"Abschluss: abgebrochen (Duales Studium in Informatik- Informationstechnik bei der Netze BW in Stuttgart)"
 		},
 		{
 			id: 2,
