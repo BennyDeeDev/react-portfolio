@@ -53,3 +53,4 @@ Dieses Projekt ist mein Portfolio welches mit dem folgenden Stack aufgebaut word
 </ul>
 
 Deployed und gehostet wird mit netlify aus dem Master-branch.
+https://benjaminderksen.netlify.app/
