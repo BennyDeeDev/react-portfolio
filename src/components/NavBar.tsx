@@ -6,6 +6,8 @@ import Hamburger from "hamburger-react";
 
 import { isMobile } from "react-device-detect";
 
+import Reveal from "react-reveal/Reveal";
+
 export default function NavBar() {
 	const [isOpen, setOpen] = useState(false);
 
@@ -18,8 +20,7 @@ export default function NavBar() {
 						to={nav.id}
 						spy={true}
 						smooth={true}
-						offset={-100}
-					>
+						offset={-100}>
 						{nav.text}
 					</Link>
 				</div>
@@ -34,7 +35,10 @@ export default function NavBar() {
 				<div className="self-end">
 					<Hamburger toggled={isOpen} toggle={setOpen} />
 				</div>
-				<div className="">{isOpen ? navBarItems() : null}</div>
+
+				<Reveal effect="animateProgressBar" duration={1500}>
+					<div className="">{isOpen ? navBarItems() : null}</div>
+				</Reveal>
 			</React.Fragment>
 		);
 	};
