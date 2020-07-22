@@ -6,9 +6,9 @@ import calendar from "../images/calendar.svg";
 //TODO: Iphone 5 Overflow from Container
 export default function cvItem({ timespan, text, location, title }) {
 	return (
-		<div className="flex items-center ">
+		<div className="flex items-center">
 			<div className="w-4 h-1 rounded-full bg-minimalist-gray flex-shrink-0"></div>
-			<div className="flex flex-grow my-4 ml-2 bg-gray-300 rounded-lg ">
+			<div className="flex flex-grow my-4 ml-2 bg-gray-300 rounded-lg flex-shrink">
 				<div className="m-4">
 					<TextWithSvg
 						Tag="h4"
