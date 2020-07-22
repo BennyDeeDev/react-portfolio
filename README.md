@@ -44,8 +44,10 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
  -->
 
-Dieses Projekt ist mein Portfolio welches mit dem folgenden Stack aufgebaut worden ist:
-React mit create-react-app
-Tailwind CSS mit Sass
+Dieses Projekt ist mein Portfolio welches mit dem folgenden Stack aufgebaut worden ist: <br/>
 
+<ul>
+<li>React mit create-react-app
+<li>Tailwind CSS mit Sass
+<ul>
 Deployed und gehostet wird mit netlify aus dem Master-branch.
