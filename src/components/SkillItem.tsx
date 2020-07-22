@@ -14,7 +14,7 @@ export default function SkillItem({ text, svg, progress }) {
 				</div>
 				<div className="bg-gray-500 w-full h-6">
 					<VisibilitySensor>
-						<Reveal effect="animateWidth" duration={1500}>
+						<Reveal effect="animateWidth" duration={2000}>
 							<div
 								className="bg-minimalist-teal h-6"
 								style={{ width: progress }}
